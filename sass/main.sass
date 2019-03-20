@@ -1,0 +1,31 @@
+@import variables
+@import mixins
+
+// use examples1 -------------- using variables
++media($minw, $xs)
+  p
+    font-size: 1em
+    padding: 0px
+
++media($minw, $xs, $maxw, $lg)
+  p
+    font-size: 1em
+    padding: 0px
+
+// use examples2 -------------- using both varible and string
++media($minw, "1000px")
+  p
+    font-size: 2em
+    padding: 10px
+
+// use examples3 -------------- using strings only
++media("min-width", $mobile ,"max-width", "62.5em")
+  p
+    font-size: 3em
+    padding: 15px
+
+// use examples4 -------------- using predefind configuration
++media($tablet)
+  p
+    font-size: 4em
+    padding: 20px

@@ -1,0 +1,30 @@
+{
+  "name": "testpsd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Matviy",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatviyRoman/TestPSD.git"
+  },
+  "keywords": [
+    "testpsd"
+  ],
+  "bugs": {
+    "url": "https://github.com/MatviyRoman/TestPSD/issues"
+  },
+  "homepage": "https://github.com/MatviyRoman/TestPSD#readme",
+  "description": ""
+}
